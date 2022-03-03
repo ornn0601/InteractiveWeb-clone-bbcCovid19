@@ -62,10 +62,12 @@
       step = stepElems[i];
 
       if (!step) continue;
+      
       boundingRect = step.getBoundingClientRect();
       // console.log(boundingRect.top);
 
-      if (boundingRect.top > window.innerHeight * 0.1 && boundingRect.top < window.innerHeight * 0.8) {
+      if (boundingRect.top > window.innerHeight * 0.1 &&
+          boundingRect.top < window.innerHeight * 0.8) {
         // console.log(step.dataset.index);
         inactiveate();
         currenItem = graphicElems[step.dataset.index];

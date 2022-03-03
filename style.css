@@ -19,7 +19,7 @@ img {
 .global-width {
 	max-width: 620px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 1rem;
 }
 
 .scroll-graphic {
@@ -51,6 +51,7 @@ img {
 
 .scroll-text {
 	position: relative;
+	padding: 1px;
 }
 .step { 
 	margin-bottom: 60vh;
@@ -58,6 +59,7 @@ img {
 	border-radius: 10px;
 	background: rgba(255,255,255, 0.8);
 	box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
+
 }
 
 .bird {
